@@ -5,12 +5,20 @@
     margin:0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 li{
     list-style-type: none;
 }
 a{
     text-decoration: none;
+}
+h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 section::after{
     content:"";
@@ -62,7 +70,10 @@ header{
     font-size: 16px;
 
 }
-.banner-text h1,p{
+.banner-text h1{
+    color: #fff;
+}
+.banner-text p{
     color: #fff;
 }
 .banner-btn{
@@ -75,3 +86,169 @@ header{
     background-color: #FAB802;
     padding: 20px 0;
 }
+#quote h3{
+    color:#fff;
+}
+#quote h3 span a{
+    color:#000;
+    text-decoration: underline;
+}
+.quote-btn{
+    background-color: #fff;
+    border: 1px solid #FAB802;
+    padding:10px 20px;
+}
+/* Services */
+.services-area{
+    text-align: center;
+    padding: 100px 0;
+}
+.service-card{
+    padding-top:50px ;
+}
+
+.services-area p{
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.card{
+    border: none;
+    text-align: left  !important;
+    overflow: hidden;
+}
+.card-img-top{
+    height: 200px;
+    cursor: pointer;
+    
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: .8s;
+}
+.card-body{
+    padding:20px 0;
+}
+.read-more{
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 30px;
+}
+.read-more:hover{
+    color:rgb(253, 166, 4);
+    text-decoration: underline;
+    transition: .5s;
+}
+.card-title{
+    font-weight: 700;
+}
+.card p{
+    margin-bottom: 20px;
+}
+/* Discuss */
+#discuss-s{
+    background:radial-gradient(#383434e0,#3c3c3ab8), url(images/two-colleagues-factory.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.general{
+    margin-bottom: 50px;
+}
+.general img{
+    margin-right: 30px;
+    width: 80px;
+}
+.general h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.general p{
+    color: #fff;
+}
+.blt{
+    border-left: 1px solid grey;
+}
+/* Featured works */
+.s-list{
+    cursor: pointer;
+}
+.featured-works{
+    padding: 100px 0;
+    text-align: center;
+}
+.featured-works h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.all-works-list .s-list{
+    background: #c8c8c8;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.work-images{
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px auto;
+}
+.work-images img{
+    width:410px;
+    height: 320px;
+    margin:30px;
+    margin-bottom: 0;
+}
+.work-images img:last-child{
+    margin-right: 0;
+}
+/* Customer feedback */
+.c-feedback{
+    text-align: center;
+}
+.single-item{
+    background: #F8F8F8;
+    overflow: hidden;
+}
+.single-item p{
+    text-align: left;
+    margin-top: 20px;
+}
+.single-item h5{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+.owl-carousel .owl-item img{
+    width:150px;
+    height: 130px;
+    float: left;
+    margin-right: 20px;
+}
+.owl-dot span{
+    background: #8A8A8A !important;
+}
+/* Counter  */
+#num-scroll-count{
+    background: linear-gradient(#1d1a1ac9,#1e1f1feb),url(images/construction-4606112_1920.jpg);
+    text-align: center;
+    padding: 40px 0;
+}
+.single-count label{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+
+}
+.single-count span{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
