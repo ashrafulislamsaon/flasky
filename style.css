@@ -30,11 +30,14 @@ section::after{
     height: 0;
     visibility: hidden;
 }
+:focus{
+    outline:0;
+}
 /* Header */
 #topbar{
     background-color: #F5F5F5;
 }
-#topbar span{
+#topbar span a{
     color:#8A8A8A;
     font-size:14px;
 }
